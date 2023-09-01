@@ -2,6 +2,7 @@ import fastifyCors from '@fastify/cors'
 import { env } from '@/helpers/env'
 
 import { app } from './server'
+import './modules'
 
 app.register(fastifyCors, { origin: true })
 

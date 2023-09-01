@@ -38,6 +38,7 @@
   },
   "dependencies": {
     "@fastify/cors": "8.3.0",
+    "@mobily/ts-belt": "3.13.1",
     "@prisma/client": "5.0.0",
     "dotenv": "16.3.1",
     "fastify": "4.22.2",
