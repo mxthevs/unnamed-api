@@ -17,6 +17,7 @@
     "@commitlint/cli": "17.6.7",
     "@commitlint/config-conventional": "17.6.7",
     "@types/jest": "29.5.3",
+    "@types/module-alias": "2.0.2",
     "@types/node": "20.4.2",
     "@typescript-eslint/eslint-plugin": "5.50.0",
     "eslint": "8.0.1",
@@ -36,6 +37,7 @@
     "typescript": "*"
   },
   "dependencies": {
-    "@prisma/client": "5.0.0"
+    "@prisma/client": "5.0.0",
+    "module-alias": "2.2.3"
   }
 }
