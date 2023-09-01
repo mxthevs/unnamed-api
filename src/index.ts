@@ -1,4 +1,3 @@
-const hello: string = 'Hello,'
-const world: string = 'World!'
-
-console.log(`${hello} ${world}`)
+import 'dotenv/config'
+import './config/module-alias'
+import './app'

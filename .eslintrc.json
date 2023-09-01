@@ -16,6 +16,8 @@
         "project": ["./tsconfig.json"]
     },
     "rules": {
-      "prettier/prettier": "error"
+      "prettier/prettier": "error",
+      "@typescript-eslint/space-before-function-paren": "off",
+      "@typescript-eslint/no-floating-promises": "off"
     }
 }
