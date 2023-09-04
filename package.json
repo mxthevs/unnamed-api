@@ -5,6 +5,7 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
+    "prestart": "npx prisma migrate deploy",
     "start": "node dist/src/index.js",
     "dev": "nodemon --exec sucrase-node src/index.ts",
     "lint": "eslint . --ext js,ts",
